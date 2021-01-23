@@ -1,0 +1,39 @@
+html, body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+p{
+	margin: 30px;
+}
+
+#header{
+	position: relative;
+	height: 120px;
+	background: #FAFAFA;
+}
+
+#headerImg{
+	margin: 20px;
+	height: 85px;
+}
+
+#filmIcon{
+	margin: 20px 5px;
+	height: 60px;
+}
+
+#filmIconSmall{
+	margin: 20px 5px;
+	height: 40px;
+}
+
+#footer{
+	margin: 90px;
+	color: #D8D8D8;
+}
+
+.bold{
+	font-weight: bold;
+}
