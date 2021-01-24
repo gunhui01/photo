@@ -82,7 +82,8 @@ a{
 	}
 	
 	#footer{
-		margin: 5%;
+		margin: 5% 0%;
+		height: 10%;
 		color: #D8D8D8;
 	}
 }
@@ -133,6 +134,7 @@ a{
 	
 	#footer{
 		margin: 10%;
+		height: 10%;
 		color: #D8D8D8;
 	}
 }
