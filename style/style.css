@@ -28,11 +28,6 @@ a{
 	height: 75%;
 }
 
-#filmIconSmall{
-	margin: 20px 5px;
-	height: 40px;
-}
-
 .bold{
 	font-weight: bold;
 }
@@ -46,9 +41,22 @@ a{
 		margin: 2%;
 	}
 	
+	table, td{
+		margin: 2%;
+		border: 1px solid #000000;
+		border-collapse: collapse;
+		padding: 5%;
+		font-size: 1.3vw;
+	}
+	
 	#filmIcon{
 		margin: 2% 1%;
 		height: 10%;
+	}
+	
+	#filmIconSmall{
+		margin: 2% 1% -1% 0%;
+		height: 5%;
 	}
 	
 	#footer{
@@ -66,13 +74,26 @@ a{
 		margin: 5%;
 	}
 	
+	table, td{
+		margin: 5%;
+		border: 1px solid #000000;
+		border-collapse: collapse;
+		padding: 5%;
+		font-size: 2.5vh;
+	}
+	
 	#filmIcon{
 		margin: 5% 1%;
 		height: 10%;
 	}
 	
+	#filmIconSmall{
+		margin: 5% 2% -2.5% 0%;
+		height: 5%;
+	}
+	
 	#footer{
-		margin: 10%;
+		margin: 20%;
 		color: #D8D8D8;
 	}
 }
