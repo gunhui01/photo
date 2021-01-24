@@ -43,10 +43,12 @@ a{
 	
 	table, td{
 		margin: 2%;
+		width: 10%;
 		border: 1px solid #000000;
 		border-collapse: collapse;
 		padding: 5%;
 		font-size: 1.3vw;
+		text-align: center;
 	}
 	
 	#warning{
@@ -96,10 +98,12 @@ a{
 	
 	table, td{
 		margin: 5%;
+		width: 25%;
 		border: 1px solid #000000;
 		border-collapse: collapse;
 		padding: 5%;
 		font-size: 2.5vh;
+		text-align: center;
 	}
 	
 	#warning{
