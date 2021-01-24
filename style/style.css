@@ -4,24 +4,15 @@ html, body{
 	height: 100%;
 }
 
-p{
-	margin: 30px;
-}
-
 #header{
 	position: relative;
-	height: 120px;
+	height: 13%;
 	background: #FAFAFA;
 }
 
 #headerImg{
-	margin: 20px;
-	height: 85px;
-}
-
-#filmIcon{
-	margin: 20px 5px;
-	height: 60px;
+	margin: 1%;
+	height: 75%;
 }
 
 #filmIconSmall{
@@ -29,11 +20,46 @@ p{
 	height: 40px;
 }
 
-#footer{
-	margin: 90px;
-	color: #D8D8D8;
-}
-
 .bold{
 	font-weight: bold;
+}
+
+@media (orientation: landscape){
+	body{
+		font-size: 1.3vw;
+	}
+	
+	p{
+		margin: 2%;
+	}
+	
+	#filmIcon{
+		margin: 2% 1%;
+		height: 10%;
+	}
+	
+	#footer{
+		margin: 5%;
+		color: #D8D8D8;
+	}
+}
+
+@media (orientation: portrait){
+	body{
+		font-size: 2.5vh;
+	}
+	
+	p{
+		margin: 5%;
+	}
+	
+	#filmIcon{
+		margin: 5% 1%;
+		height: 10%;
+	}
+	
+	#footer{
+		margin: 10%;
+		color: #D8D8D8;
+	}
 }
