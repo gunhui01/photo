@@ -62,12 +62,17 @@ a{
 	}
 	
 	#filmIconSmall{
-		margin: 2% 1% -1% 0%;
+		margin: 2% 1% -0.8% 0%;
 		height: 5%;
 	}
 	
 	#smallIcon{
-		margin: 1% 1% -0.5% 0%;
+		margin: 1% 0.5% -0.5% 0%;
+		height: 4%;
+	}
+	
+	#smallFilmIcon{
+		margin: 1% 1% -0.8% 0%;
 		height: 5%;
 	}
 	
@@ -124,6 +129,11 @@ a{
 	
 	#smallIcon{
 		margin: 4% 2% -2% 0%;
+		height: 4%;
+	}
+	
+	#smallFilmIcon{
+		margin: 4% 3% -3% 0%;
 		height: 5%;
 	}
 	
